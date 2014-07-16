@@ -1,12 +1,9 @@
+import scala.math.min
+import scala.util.Random
+
 import spire.algebra.MetricSpace
 import spire.algebra.MetricSpace._
-import spire.algebra.IsReal._
-
-import spire.implicits.{IntAlgebra}
-import spire.math.{min => _,_}
-import scala.math.min
-
-import scala.util.Random
+import spire.implicits.IntAlgebra
 
 
 object Main extends App {
